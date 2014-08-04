@@ -28,6 +28,7 @@
                 <configuration>
                     <executable>java</executable>
                     <arguments>
+                        <argument>-Xmx128m</argument>
                         <argument>-classpath</argument>
                         <classpath/>
                         <argument>LeakMemory</argument>

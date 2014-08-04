@@ -13,7 +13,7 @@ public class LeakMemory
 
         ScriptingContainer scriptingContainer = new ScriptingContainer();
 
-        System.out.println("Beginning loop...");
+        System.out.println("\n Running scripts...");
         while (true) {
             scriptingContainer.runScriptlet(rubyScript);
         }

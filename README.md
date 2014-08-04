@@ -21,3 +21,4 @@ This simple JRuby program demonstrates a memory leak.
 * Switching the order of the two statements in the ruby program does not affect the behavior.
 * Moving the infinite loop out of java and into ruby does not affect the behavior.
 * Putting sleep statements in the ruby code makes the program consume memory more slowly, but does not seem to prevent it from consuming more than it should.
+* [Here is a graph of memory usage over time](https://docs.google.com/a/puppetlabs.com/spreadsheets/d/1wzDe05JPXRO_g9c6m-4GJrSK-zVxLwS3WR-CMbJogMA/edit#gid=968886138) of 2 separate runs of this program.  Note that peak memory usage approached 2 GB on a 128 MB heap, and 8 GB on a 1 GB heap.

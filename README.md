@@ -1,6 +1,3 @@
-jruby-memory-leak
-=================
-
 This simple JRuby program demonstrates a memory leak.
 
 ## Try it yourself!

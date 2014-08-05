@@ -13,6 +13,7 @@ This simple JRuby program demonstrates a memory leak.
 
 ## Notes
 
+* **Downgrading to JRuby 1.7.12 fixes the leak!**
 * Removing either `Gem.clear_paths` or the other 4 lines of ruby code prevents the leak from occurring.
 * Changing `Gem.clear_paths` to some other method call also prevents the leak from occurring.
 * Switching the order of the two statements in the ruby program does not affect the behavior.
